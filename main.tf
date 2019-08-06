@@ -4,7 +4,7 @@ resource "aws_launch_template" "def" {
   block_device_mappings {
     device_name = "/dev/xvda"
     ebs {
-      volume_type = "gp2"
+      volume_type = "ssd"
       volume_size = "${var.volume_size}"
     }
   }
