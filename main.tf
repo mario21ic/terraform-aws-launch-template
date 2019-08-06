@@ -15,7 +15,7 @@ resource "aws_launch_template" "def" {
 
   disable_api_termination = false
 
-  ebs_optimized = true
+  ebs_optimized = false 
 
 //  elastic_gpu_specifications {
 //    type = "test"
